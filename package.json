@@ -1,0 +1,52 @@
+{
+  "name": "vue3_ts_template",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "ts-lint": "vue-tsc --noEmit --skipLibCheck",
+    "build": "vite build",
+    "build-staging": "vite build --mode staging",
+    "serve": "vite preview",
+    "autofix": "eslint ./src --ext .ts --ext .vue --fix",
+    "lint": "eslint ./src --ext .ts --ext .vue"
+  },
+  "dependencies": {
+    "@vueuse/core": "^7.6.2",
+    "@ym/hamlet-ts-plugin": "^0.1.4",
+    "axios": "^0.21.1",
+    "echarts": "^5.3.2",
+    "echarts-wordcloud": "^2.0.0",
+    "element-plus": "^2.0.2",
+    "pinia": "^2.0.12",
+    "qs": "^6.10.3",
+    "vue": "^3.2.27",
+    "vue-echarts": "^6.0.2",
+    "vue-i18n": "^9.1.6",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "@vitejs/plugin-vue": "^2.0.1",
+    "@vue/compiler-sfc": "^3.2.27",
+    "@vue/eslint-config-airbnb": "^5.3.0",
+    "@vuedx/typecheck": "^0.7.4",
+    "@vuedx/typescript-plugin-vue": "^0.7.4",
+    "autoprefixer": "^10.2.5",
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "postcss": "^8.2.15",
+    "sass": "^1.34.0",
+    "tailwindcss": "^2.1.2",
+    "typescript": "^4.5.4",
+    "unplugin-auto-import": "^0.6.1",
+    "unplugin-element-plus": "^0.3.2",
+    "unplugin-vue-components": "^0.17.21",
+    "vite": "^2.1.5",
+    "vite-plugin-compression": "^0.3.5",
+    "vite-plugin-svg-icons": "^0.6.1",
+    "vue-tsc": "^0.30.4"
+  }
+}
